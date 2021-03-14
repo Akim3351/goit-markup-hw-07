@@ -13,25 +13,26 @@
     </head>
 <body>
     <header class="header">
-        <div class="headercontainer">
-        <h1 class="h1logo"><span class="webprefix">Web</span>Studio</h1>
-        <nav class="nav">
-            <ul class="navlinks">
-                <li class="studio"> <a class="link" href="./index.html">Студия</a></li>
-                <li class="portfolio current"> <a href="./portfolio.html">Портфолио</a></li>
-                <li class="contacts"> <a class="link" href="#footer">Контакты</a></li>
+        <div class="header__container">
+        <h1 class="header__logo">
+            <span class="header__logo-prefix">Web</span>Studio</h1>
+        <nav class="header__nav">
+            <ul class="header__navlinks">
+                <li class="header__link"> <a class="link" href="./index.html">Студия</a></li>
+                <li class="header__link--current"> <a class="link" href="./portfolio.html">Портфолио</a></li>
+                <li class="header__link"> <a class="link" href="#footer">Контакты</a></li>
             </ul>
         </nav>
-                <div class="headeraddress">
-                <address class="mail">
+                <div class="header__address">
+                <address class="header__mail">
                     <a href="mailto:info@devstudio.com" class="link">
-                        <svg class="icon-mail"> 
+                        <svg class="header__icon--mail"> 
                             <use href="./images/sprite.svg#icon-envelope"></use>
                         </svg>info@devstudio.com</a>
                 </address>
-                <address class="phone">                    
+                <address class="header__phone">                    
                     <a href="tel:+380961111111" class="link"> 
-                        <svg class="icon-smartphone">
+                        <svg class="header__icon--smartphone">
                             <use href="./images/sprite.svg#icon-smartphone">
                             </use>
                         </svg>+38 096 111 11 11</a>
@@ -40,167 +41,167 @@
         </div>
     </header>
     <main>
-        <section class="mainportfoliosection">
-            <div class="portfcontainer">
+        <section class="products">
+            <div class="products__container">
             <h4 style="display: none;">Наши работы</h4>
-            <ul class="filters">
-            <li><button class="filterbtn">
+            <ul class="products__filters">
+            <li><button class="products__filterbutton">
                 Все
             </button></li>
-            <li><button class="filterbtn">
+            <li><button class="products__filterbutton">
                 Веб-сайты
             </button></li>
-            <li><button class="filterbtn">
+            <li><button class="products__filterbutton">
                 Приложения
             </button></li>
-            <li><button class="filterbtn">
+            <li><button class="products__filterbutton">
                 Дизайн
             </button></li>
-            <li><button class="filterbtn"> 
+            <li><button class="products__filterbutton"> 
                 Маркетинг
             </button></li>
             </ul>
 
-            <ul class="productlist">
+            <ul class="products__list">
                 <li href="#" class="product">
-                    <div class="productthumb">
-                        <img class="thumbimage" src="./images/portfolio/technokryak.jpg" alt="Технокряк" />
-                        <div class="thumboverlay">
-                            <p class="thumboverlaytext">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                    <div class="product__thumb">
+                        <img class="product__image" src="./images/portfolio/technokryak.jpg" alt="Технокряк" />
+                        <div class="product__thumboverlay">
+                            <p class="product__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                         </div>
                     </div>
-                    <h2 class="productname">Технокряк</h2>
-                    <p class="producttype">Веб-сайт</p>
+                    <h2 class="product__name">Технокряк</h2>
+                    <p class="product__type">Веб-сайт</p>
                 </li>
                 <li href="#" class="product">
-                    <div class="productthumb">
-                        <img class="thumbimage" src="./images/portfolio/neworleangoldstar.jpg" alt="Постер New Orlean vs Golden Star" />
-                        <div class="thumboverlay">
-                            <p class="thumboverlaytext">Текст оверлея</p>
+                    <div class="product__thumb">
+                        <img class="product__image" src="./images/portfolio/neworleangoldstar.jpg" alt="Постер New Orlean vs Golden Star" />
+                        <div class="product__thumboverlay">
+                            <p class="product__text">Текст оверлея</p>
                         </div>
                     </div>
-                    <h2 class="productname">Постер New Orlean vs Golden Star</h2>
-                    <p class="producttype">Дизайн</p>
+                    <h2 class="product__name">Постер New Orlean vs Golden Star</h2>
+                    <p class="product__type">Дизайн</p>
                 </li>
                 <li href="#" class="product">
-                    <div class="productthumb">
-                        <div class="productthumb">
-                        <img class="thumbimage" src="./images/portfolio/seafood.jpg" alt="Ресторан Seafood" />
-                        <div class="thumboverlay">
-                            <p class="thumboverlaytext">Текст оверлея</p>
+                    <div class="product__thumb">
+                        <div class="product__thumb">
+                        <img class="product__image" src="./images/portfolio/seafood.jpg" alt="Ресторан Seafood" />
+                        <div class="product__thumboverlay">
+                            <p class="product__text">Текст оверлея</p>
                         </div>
                     </div>
                     </div>
-                    <h2 class="productname">Ресторан Seafood</h2>
-                    <p class="producttype">Приложение</p>
+                    <h2 class="product__name">Ресторан Seafood</h2>
+                    <p class="product__type">Приложение</p>
                 </li>
                 <li href="#" class="product">
-                    <div class="productthumb">
-                    <img class="thumbimage" src="./images/portfolio/primeproject.jpg" alt="Проект Prime" />
-                    <div class="thumboverlay">
-                        <p class="thumboverlaytext">Текст оверлея</p>
+                    <div class="product__thumb">
+                    <img class="product__image" src="./images/portfolio/primeproject.jpg" alt="Проект Prime" />
+                    <div class="product__thumboverlay">
+                        <p class="product__text">Текст оверлея</p>
                     </div>
                     </div>
-                    <h2 class="productname">Проект Prime</h2>
-                    <p class="producttype">Маркетинг</p>
+                    <h2 class="product__name">Проект Prime</h2>
+                    <p class="product__type">Маркетинг</p>
                 </li>
                 <li href="#" class="product">
-                    <div class="productthumb">
-                    <img class="thumbimage" src="./images/portfolio/boxesproject.jpg" alt="Проект Boxes" />
-                    <div class="thumboverlay">
-                        <p class="thumboverlaytext">Текст оверлея</p>
+                    <div class="product__thumb">
+                    <img class="product__image" src="./images/portfolio/boxesproject.jpg" alt="Проект Boxes" />
+                    <div class="product__thumboverlay">
+                        <p class="product__text">Текст оверлея</p>
                     </div>
                     </div>
-                    <h2 class="productname">Проект Boxes</h2>
-                    <p class="producttype">Приложение</p>
+                    <h2 class="product__name">Проект Boxes</h2>
+                    <p class="product__type">Приложение</p>
                 </li>
                 <li href="#" class="product">
-                    <div class="productthumb">
-                    <img class="thumbimage" src="./images/portfolio/inspirationhasnoborders.jpg" alt="Inspiration has no Borders" />
-                    <div class="thumboverlay">
-                        <p class="thumboverlaytext">Текст оверлея</p>
+                    <div class="product__thumb">
+                    <img class="product__image" src="./images/portfolio/inspirationhasnoborders.jpg" alt="Inspiration has no Borders" />
+                    <div class="product__thumboverlay">
+                        <p class="product__text">Текст оверлея</p>
                     </div>
                     </div>
-                    <h2 class="productname">Inspiration has no Borders</h2>
-                    <p class="producttype">Веб-сайт</p>
+                    <h2 class="product__name">Inspiration has no Borders</h2>
+                    <p class="product__type">Веб-сайт</p>
                 </li>
                 <li href="#" class="product">
-                    <div class="productthumb">
-                    <img class="thumbimage" src="./images/portfolio/limitededition.jpg" alt="Издание Limited Edition" />
-                    <div class="thumboverlay">
-                        <p class="thumboverlaytext">Текст оверлея</p>
+                    <div class="product__thumb">
+                    <img class="product__image" src="./images/portfolio/limitededition.jpg" alt="Издание Limited Edition" />
+                    <div class="product__thumboverlay">
+                        <p class="product__text">Текст оверлея</p>
                     </div>
                     </div>
-                    <h2 class="productname">Издание Limited Edition</h2>
-                    <p class="producttype">Дизайн</p>
+                    <h2 class="product__name">Издание Limited Edition</h2>
+                    <p class="product__type">Дизайн</p>
                 </li>
                 <li href="#" class="product">
-                    <div class="productthumb">
+                    <div class="product__thumb">
 
-                    <img class="thumbimage" src="./images/portfolio/labproject.jpg" alt="Проект LAB" />
-                    <div class="thumboverlay">
-                        <p class="thumboverlaytext">Текст оверлея</p>
+                    <img class="product__image" src="./images/portfolio/labproject.jpg" alt="Проект LAB" />
+                    <div class="product__thumboverlay">
+                        <p class="product__text">Текст оверлея</p>
                     </div>
                     </div>
-                    <h2 class="productname">Проект LAB</h2>
-                    <p class="producttype">Маркетинг</p>
+                    <h2 class="product__name">Проект LAB</h2>
+                    <p class="product__type">Маркетинг</p>
                 </li>
                 <li href="#" class="product">
-                    <div class="productthumb">
+                    <div class="product__thumb">
 
-                    <img class="thumbimage" src="./images/portfolio/growingbusiness.jpg" alt="Growing Business" />
-                    <div class="thumboverlay">
-                        <p class="thumboverlaytext">Текст оверлея</p>
+                    <img class="product__image" src="./images/portfolio/growingbusiness.jpg" alt="Growing Business" />
+                    <div class="product__thumboverlay">
+                        <p class="product__text">Текст оверлея</p>
                     </div>
                     </div>
-                    <h2 class="productname">Growing Business</h2>
-                    <p class="producttype">Приложение</p>
+                    <h2 class="product__name">Growing Business</h2>
+                    <p class="product__type">Приложение</p>
                 </li>
             </ul>
             </div>
         </section>
     </main>
     <footer id="footer" class="footer">
-        <div class="footcontainer">
+        <div class="footer__container">
         <div>
-            <h1 class="footlogo"><span class="webprefix">Web</span>Studio</h1>
+            <h1 class="footer__logo"><span class="footer__logo-prefix">Web</span>Studio</h1>
         <address>
-            <ul class="footercontacts">
-            <li class="footeraddress">г. Киев, пр-т Леси Украинки, 26</li>
-            <li class="footerlink"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="footerlink"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <ul class="footer__contacts">
+            <li class="footer__address">г. Киев, пр-т Леси Украинки, 26</li>
+            <li class="footer__link"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="footer__link"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </address>
         </div>
-        <div class="footerlinks">
-            <p class="joinus">присоединяйтесь</p>
-            <ul class="footersociallinks">
+        <div class="footer__links">
+            <p class="footer__links joinus">присоединяйтесь</p>
+            <ul class="footer__sociallinks">
                 <li class="item">                
                     <a href="#">
-                    <div class="footersociallink">
-                    <svg class="icon-instagram"> 
+                    <div class="footer__sociallink">
+                    <svg style="height: 20px;"> 
                     <use href="./images/sprite.svg#icon-instagram"></use>
                     </svg>
                     </div>
                     </a>                        
                 </li>
                 <li class="item">                
-                    <a  href="#" class="footersociallink">
-                    <svg class="icon-twitter"> 
+                    <a  href="#" class="footer__sociallink">
+                    <svg style="height: 20px;"> 
                     <use href="./images/sprite.svg#icon-twitter"></use>
                     </svg>
                     </a>
                 </li>
                 <li class="item">                
-                    <a href="#" class="footersociallink" >
-                    <svg class="icon-facebook"> 
+                    <a href="#" class="footer__sociallink" >
+                    <svg style="height: 20px;"> 
                     <use href="./images/sprite.svg#icon-facebook"></use>
                     </svg>
                     </a>
                 </li>
                 <li class="item">                
-                    <a href="#" class="footersociallink" >
-                    <svg class="icon-linkedin"> 
+                    <a href="#" class="footer__sociallink" >
+                    <svg style="height: 20px;"> 
                     <use href="./images/sprite.svg#icon-linkedin"></use>
                     </svg>
                     </a>
@@ -208,17 +209,17 @@
             </ul>
 
         </div>
-        <div class="footerjoint">
-            <form name="subscribeform">
-                <div class="subscribewrapper">
+        <div class="subscribe">
+            <form name="subscribe__form">
+                <div class="subscribe__wrapper">
                     <label for="subscribe-email">
-                    <p class="subscribeus">подпишитесь на рассылку</p>
-                    <input class="subscribeinput" type="email" name="subscribe-email" placeholder="E-mail">
+                    <p class="footer__links subscribeus">подпишитесь на рассылку</p>
+                    <input class="subscribe__input" type="email" name="subscribe-email" placeholder="E-mail">
                 </label>
-                <button type="submit" class="subscribebtn">
+                <button type="submit" class="subscribe__button">
                     <p>Подписаться
                     </p>
-                    <svg class="icon-subscribe"> 
+                    <svg class="subscribe__icon"> 
                         <use href="./images/sprite.svg#icon-subscribe"></use>
                     </svg>
                 </button>
