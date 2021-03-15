@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link 
-    rel="stylesheet" 
-    href="./css/style.css">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    <link rel="stylesheet" href="./sass/utils/variables.min.scss">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
 </head>
 <body>
@@ -19,26 +17,26 @@
             <span class="header__logo-prefix">Web</span>Studio</h1>
         <nav class="header__nav">
             <ul class="header__navlinks">
-                <li class="header__link--current"> <a href="./index.html">Студия</a></li>
+                <li class="header__currentlink"> <a href="./index.html">Студия</a></li>
                 <li class="header__link"> <a class="link" href="./portfolio.html">Портфолио</a></li>
                 <li class="header__link"> <a class="link" href="#footer">Контакты</a></li>
             </ul>
         </nav>
                 <div class="header__address">
-                <address class="header__mail">
-                    <a href="mailto:info@devstudio.com" class="link">
-                        <svg class="header__icon--mail"> 
-                            <use href="./images/sprite.svg#icon-envelope"></use>
-                        </svg>info@devstudio.com</a>
-                </address>
-                <address class="header__phone">                    
-                    <a href="tel:+380961111111" class="link"> 
-                        <svg class="header__icon--smartphone">
-                            <use href="./images/sprite.svg#icon-smartphone">
-                            </use>
-                        </svg>+38 096 111 11 11</a>
-                </address>
-                </div>
+                    <address class="header__mail">
+                        <a href="mailto:info@devstudio.com" class="link">
+                            <svg class="header__icon--mail"> 
+                                <use href="./images/sprite.svg#icon-envelope"></use>
+                            </svg>info@devstudio.com</a>
+                    </address>
+                    <address class="header__phone">                    
+                        <a href="tel:+380961111111" class="link"> 
+                            <svg class="header__icon--smartphone">
+                                <use href="./images/sprite.svg#icon-smartphone">
+                                </use>
+                            </svg>+38 096 111 11 11</a>
+                    </address>
+                    </div>
         </div>
     </header>
     <main>
@@ -53,14 +51,14 @@
             </button>
             </div>
         </section>
-        <section class="advantage__section">
+        <section class="advantage">
             <div class="advantage__container">
 
         <h4 style="display: none;">Наши преимущества</h4>
         <ul class="advantage__list">
             <li class="advantage__item">
                 <div class="advantage__iconwrapper">
-                    <svg class="advantage__icon--antenna"> 
+                    <svg class="advantage__icon" style="width: 70px; height: 120px;"> 
                     <use href="./images/sprite.svg#icon-antenna"></use>
                 </svg>
                 </div>
@@ -72,7 +70,7 @@
                 </li>
                 <li class="advantage__item">
                 <div class="advantage__iconwrapper">
-                <svg class="advantage__icon--clock"> 
+                    <svg class="advantage__icon" style="width: 70px; height: 120px;"> 
                         <use href="./images/sprite.svg#icon-clock"></use>
                     </svg>
                 </div>
@@ -84,8 +82,8 @@
                 </li>
                 <li class="advantage__item">
                 <div class="advantage__iconwrapper">
-                <svg class="advantage__icon--diagram"> 
-                    <use href="./images/sprite.svg#icon-diagram"></use>
+                    <svg class="advantage__icon" style="width: 70px; height: 120px;"> 
+                        <use href="./images/sprite.svg#icon-diagram"></use>
                 </svg>
                 </div>
                 <p class="advantage__subtitle">ПЛАНИРОВАНИЕ</p>
@@ -96,8 +94,8 @@
             </li>
             <li class="advantage__item">
                 <div class="advantage__iconwrapper">
-                <svg class="advantage__icon--astronaut"> 
-                    <use href="./images/sprite.svg#icon-astronaut"></use>
+                    <svg class="advantage__icon" style="width: 70px; height: 120px;"> 
+                        <use href="./images/sprite.svg#icon-astronaut"></use>
                 </svg>
                 </div>
                 <p class="advantage__subtitle">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</p>
